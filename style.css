@@ -1,0 +1,109 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 380px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin: 15px 0;
+  color: #555;
+  font-size: 1.4em;
+}
+
+h3 {
+  margin: 10px 0 5px;
+  color: #666;
+  font-size: 1.1em;
+}
+
+.tab {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.tab button {
+  flex: 1;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  padding: 10px 0;
+  transition: 0.3s;
+  font-size: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tab button.active {
+  background-color: #ccc;
+  font-weight: bold;
+}
+
+.tabcontent {
+  display: none;
+}
+
+/* Tutor/Home section */
+.tutor-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 15px auto;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.tutor-intro {
+  font-size: 0.95em;
+  color: #444;
+  line-height: 1.5;
+  text-align: center;
+  margin: 10px 0 20px;
+  padding: 0 15px;
+}
+
+/* Meeting Link */
+.link-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.link-buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 14px 40px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.link-buttons button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
